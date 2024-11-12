@@ -1,0 +1,20 @@
+getgenv().Core = {
+    Enabled = true,
+
+    Visible = true,
+    FOV = 100,
+    fovnumb = 100,
+    FOVRGB = Color3.fromRGB(139, 139, 139),
+    HitChance = 100,
+    AimParts = {"Head", "UpperTorso", "LowerTorso", "HumanoidRootPart"}
+},
+ Camlock = {
+    AimPart = "UpperTorso",
+    Distance = 30,
+    AdvancedPrediction = true,
+    Prediction = 6.5,
+    Smoothness = false,
+    SmoothnessAmount = 0.015,
+    Keybind = "c",
+    JumpCheck = true,
+ }
